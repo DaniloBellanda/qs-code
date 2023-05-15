@@ -12,3 +12,10 @@ class DoubleTest(unittest.TestCase):
         self.assertEqual(
             MathSamples.double(1),
             1)
+        
+    def test_double03(self):
+        self.assertEqual(
+            MathSamples.double(2),
+            4)
+        
+    
