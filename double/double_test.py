@@ -18,4 +18,7 @@ class DoubleTest(unittest.TestCase):
             MathSamples.double(2),
             4)
         
-    
+    def test_double04(self):
+        self.assertEqual(
+            MathSamples.double(3),
+            9)
