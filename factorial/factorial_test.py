@@ -17,3 +17,8 @@ class FactorialTest(unittest.TestCase):
         self.assertEqual(
             MathSamples.factorial(2),
             2)
+        
+    def test_04(self):
+        self.assertEqual(
+            MathSamples.factorial(3),
+            6)
